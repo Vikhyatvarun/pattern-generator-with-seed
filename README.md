@@ -1,8 +1,15 @@
-# Pattern-generator-with-seed
-This python code will generate the uniqe pattern from any number. It is gui based programme. You can customize the partten like number of dots, color of dots, color of lines with gui.
-There is EXE file of this programme avilabe on this github page so you can directly run this programme without open any code edtior.
+# Pattern Generator HTML
+
+This Program make a Unique Patter bu using Seed randomeness. You can cutomize your generated pattern like numbers of dots, color of dots, color of lines by using the sidebar options. And your can download the Image of generated pattern include pattern Info by toggle button.
 
 
-OR use this program directly from your browser.
+
+Make your own unique pattern by using this pattern generator direct from your browser
 
 Link 🔗- https://vikhyatvarun.github.io/Pattern-Generator-HTML
+
+
+
+Or use this Python Program exe file for windows
+
+Link 🔗- https://github.com/Vikhyatvarun/Pattern-generator-with-seed

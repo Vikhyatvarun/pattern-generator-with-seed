@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pattern Generator</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Controls</h2>
+    <div class="control-item">
+      <label for="seedInput">Enter Seed:</label>
+      <input type="text" id="seedInput" placeholder="Random number">
+      <button id="randomSeedBtn">🎲 Random Seed</button>
+    </div>
+    <div class="control-item">
+      <label for="numDotsInput">Number of Dots:</label>
+      <input type="number" id="numDotsInput" min="1" max="50" value="20">
+    </div>
+    <div class="control-item">
+      <label for="dotColor">Dot Color:</label>
+      <select id="dotColor">
+        <option>Black</option>
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+        <option>Purple</option>
+        <option>Yellow</option>
+      </select>
+    </div>
+    <div class="checkbox-item">
+      <label><input type="checkbox" id="colorfulDots"> Colorful Dots</label>
+    </div>
+    <div class="control-item">
+      <label for="lineColor">Line Color:</label>
+      <select id="lineColor">
+        <option>Black</option>
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+        <option>Purple</option>
+        <option>Yellow</option>
+      </select>
+    </div>
+    <div class="checkbox-item">
+      <label><input type="checkbox" id="colorfulLines"> Colorful Lines</label>
+    </div>
+    <button id="generateBtn">Generate Pattern</button>
+    <div class="download-controls">
+       <button id="downloadBtn">⬇️ Download PNG</button>
+       <label><input type="checkbox" id="includeInfo"> Include info</label>
+      </div>
+  </div>
+   <button class="info-btn"> i </button>
+  <div class="info-popup" style="text-align: center;">This is a Pattern Generator. Use the controls to adjust the seed, number of dots, color of dots, colors of line. Check the toggles options to use colorful dots and lines. Export your map as a PNG! with info toggle.<br>Note :- This Web-page and program is not made by a Professional so, there might be issues and bugs.<p style="text-align: center;margin-bottom: -4px;margin-top: 0PX; font-size: x-small; font: bolder; font-style: italic;">Contact with me - <a href="https://www.instagram.com/vikhyatvarun/" style="color:rgb(85, 130, 212);">@vikhyatvarun</a></div>
+
+  <div class="main-content">
+    <canvas id="patternCanvas" width="600" height="580"></canvas>
+    <div class="info-bar" id="infoBar"></div>
+    <div class="copy" style="font-size: xx-small; margin-top: 617px; text-align: center; position: fixed;"> ®Copyright Recives. This Wep-Page and Programe is made and owen by Vikhyatvarun.</div> 
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
